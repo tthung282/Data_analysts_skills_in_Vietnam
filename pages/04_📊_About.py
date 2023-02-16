@@ -10,7 +10,7 @@ Title().page_config(title)
 st.markdown("## 📊 About")
 st.markdown("### 👨🏼‍💻 Goal")
 st.markdown("""
-Open-sourcing job requirements for aspiring data analysts is necessary for data nerds to focus more efficiently on what skills they need to learn for their future job. This dashboard is only the beginning of that journey. \n 
+Many thanks to Luke Barousse for such a great project idea \n 
 """)
 
 st.markdown("### 🤖 Resources")
@@ -21,22 +21,22 @@ SerpApi provides **100 searches** a month for **FREE**. When you [sign up](https
 
 st.markdown("### 📈 Data")
 st.markdown(f"""
-Data is collected daily from Google job postings search results; specifically, [searching for Data Analyst in the United States](https://serpapi.com/playground?engine=google_jobs&q=Data+Analyst&location=United+States&gl=us&hl=en). As the project grows, we'll expand to other regions and disciplines. More info in links below.👇🏼 \n
+Data is collected daily from Google job postings search results; I'll keep the data up-to-date for some more weeks to grow the database\n
 """)
 
 st.markdown("### 🔗 Links")
 col1, col2, col3 = st.columns(3)
 with col1:
-    st.markdown("### [🐙 GitHub](https://github.com/lukebarousse/Data_Analyst_Streamlit_App_V1)")
+    st.markdown("### [🐙 GitHub](https://github.com/tthung282/Data_analysts_skills_in_Vietnam)")
     # st.image('images/octocat.png', width=150)
     st.write("Source code for project")
 
 with col2:
-    st.markdown("### [🗂️ Kaggle](https://www.kaggle.com/datasets/lukebarousse/data-analyst-job-postings-google-search)")
+    st.markdown("### [🗂️ Kaggle](https://www.kaggle.com/datasets/tthung282/data-analyst-job-in-vietnam)")
     # st.image('images/kaggle.png', width=125)
     st.write("Dataset with further details")
 
 with col3:
-    st.markdown("### [📺 YouTube](https://youtu.be/iNEwkaYmPqY)")
+    st.markdown("### [📺 YouTube](https://www.youtube.com/@LukeBarousse)")
     # st.image('images/youtube.png', width=170)   
-    st.write("Video about this project")
+    st.write("Luke Barousse's youtube channel")
