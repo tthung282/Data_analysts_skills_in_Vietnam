@@ -7,7 +7,7 @@ import nltk
 from nltk.tokenize import word_tokenize, MWETokenizer
 nltk.download('punkt')
 
-data_url = 'C:/Users/admin/Python_analysis/Streamlit_myproject/data6.csv'
+data_url = 'C:/Users/admin/Python_analysis/Streamlit/Data_analysts_skills_in_Vietnam/data6.csv'
 jobs_all = pd.read_csv(data_url).replace("'","", regex=True)
 jobs_all.date_time = pd.to_datetime(jobs_all.date_time) # convert to date time
 jobs_all= jobs_all.drop(labels=['Unnamed: 0','Unnamed: 0.1','Unnamed: 0.2','Unnamed: 0.3','Unnamed: 0.4',
@@ -86,5 +86,5 @@ for index, row in jobs_all.iterrows():
     # add to details list # row.description_tokens = detail
     jobs_all.at[index, 'description_tokens'] = detail
     jobs_all = pd.DataFrame(jobs_all)
-    jobs_all.to_csv('C:/Users/admin/Python_analysis/Streamlit/modules/test2.csv')
+    jobs_all.to_csv('C:/Users/admin/Python_analysis/Streamlit/Data_analysts_skills_in_Vietnam/modules/test2.csv')
     
