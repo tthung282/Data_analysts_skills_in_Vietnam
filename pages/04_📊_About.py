@@ -10,7 +10,7 @@ Title().page_config(title)
 st.markdown("## 📊 About")
 st.markdown("### 👨🏼‍💻 Goal")
 st.markdown("""
-Many thanks to Luke Barousse for such a great project idea \n 
+This project is done for personal purposes. Many thanks to Luke Barousse for such a great project idea \n 
 """)
 
 st.markdown("### 🤖 Resources")
