@@ -10,7 +10,7 @@ class DataImport:
 
     @st.cache_data(ttl=60*60) # ttl of one hour to keep memory in cache
     def fetch_and_clean_data():
-        data_url = 'C:/Users/admin/Python_analysis/Streamlit/Data_analysts_skills_in_Vietnam/modules/test2.csv'
+        data_url = 'modules/test2.csv'
         jobs_data = pd.read_csv(data_url).replace("'","", regex=True)
         jobs_data.date_time = pd.to_datetime(jobs_data.date_time)
         jobs_data= jobs_data.drop(labels=['Unnamed: 0','Unnamed: 0.1','Unnamed: 0.2','Unnamed: 0.3','Unnamed: 0.4','Unnamed: 0.5', 'index'], axis=1, errors='ignore')
