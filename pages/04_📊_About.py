@@ -16,7 +16,7 @@ This project is done for personal purposes. Many thanks to Luke Barousse for suc
 st.markdown("### 🤖 Resources")
 st.markdown(f"""
 Thanks to [SerpApi](https://serpapi.com/) for providing the resources to pull this data! 🙌🏼 [You can test out their service here](https://serpapi.com/playground?engine=google_jobs&q=Data+Analyst&location=United+States&gl=us&hl=en).  
-SerpApi provides **100 searches** a month for **FREE**. When you [sign up](https://serpapi.com/users/sign_up), make sure you tell them Luke sent you to get an additional **20% OFF** paid plans!
+SerpApi provides **100 searches** a month for **FREE**.
 """)
 
 st.markdown("### 📈 Data")
